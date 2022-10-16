@@ -2,11 +2,15 @@
 #include<sys/wait.h>
 #include<stdlib.h>
 #include<unistd.h>
+
 int main() {
     int pid;
-    int status;    
+    int status;  
+
     printf("Hello World!\n");
+
     pid = fork();  
+    
     if(pid == -1) {
         perror("bad fork");
         exit(1);

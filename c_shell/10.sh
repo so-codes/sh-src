@@ -1,5 +1,5 @@
-# Write an awk script to count the number of lines in a file
+# Write an shell script to count the number of lines in a file
 
 echo "Enter the file name"
-read file
-awk 'END {print NR}' $file
+read f
+echo "Number of lines in the file is `wc -l $f`"
