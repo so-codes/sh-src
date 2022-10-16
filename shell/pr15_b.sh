@@ -5,6 +5,7 @@ i=1
 sum=0
 while [ $i -le $a ]
 do
+echo $i
 sum=`expr $sum + $i`
 i=`expr $i + 1`
 done

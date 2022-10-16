@@ -8,4 +8,3 @@ do
 sum=`expr $sum + $i`
 done
 echo "sum of nos from 1 to $n is $sum"
-

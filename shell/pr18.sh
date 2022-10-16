@@ -4,5 +4,6 @@ read n
 for i in `seq 1 $n`
 do
 echo `expr $i \* $i`
+sum=`expr $i \* $i`
 done
 echo "square of nos from 1 to $n is $sum"
