@@ -5,5 +5,6 @@ for i in `seq 1 $n`
 do
 echo `expr $i \* $i`
 sum=`expr $i \* $i`
+total=`expr $total + $sum`
 done
-echo "square of nos from 1 to $n is $sum"
+echo "square of nos from 1 to $n is $total"
